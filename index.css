@@ -1,0 +1,109 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Links */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Section one */
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 25px;
+    padding: 0 200px;
+}
+
+.one-text {
+    flex: 1;
+}
+
+.one-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.one-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+/* Section Two */
+
+.two {
+    background-color: white;
+    text-align: center;
+}
+
+.two h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
